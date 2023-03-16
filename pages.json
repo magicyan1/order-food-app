@@ -1,0 +1,210 @@
+{
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarBackgroundColor": "#f6eae3"
+			}
+		},
+		{
+			"path": "pages/home/queue",
+			"style": {
+				"navigationBarTitleText": "排队取号"
+			}
+		},
+		{
+			"path": "pages/home/success",
+			"style": {
+				"navigationBarBackgroundColor": "#f5f7f7",
+				"navigationBarTitleText": "排队成功"
+			}
+		},
+		{
+			"path": "pages/home/fail",
+			"style": {
+				"navigationBarBackgroundColor": "#f5f7f7",
+				"navigationBarTitleText": "取消排队"
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/goods/trolley",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/goods/search",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "菜单",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/orderComments",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/orderToConsume",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orderDetail/sucess/sucess",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/address/address",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orderDetail/paysuccess/paysuccess",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orderDetail/dineorder/dineorder",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orderDetail/orderDetail",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vip/vip",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/message",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/profile",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/qrcode",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/service",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/address/addressAdd",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/address/addressItems",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/balance/topUp",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/orderNextDetail",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/home/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#fff"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "麦美乐",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f77214",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbarImage/home.png",
+				"selectedIconPath": "static/tabbarImage/homeSel.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/goods/goods",
+				"iconPath": "static/tabbarImage/goods.png",
+				"selectedIconPath": "static/tabbarImage/goodsSel.png",
+				"text": "商品"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "static/tabbarImage/order.png",
+				"selectedIconPath": "static/tabbarImage/orderSel.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbarImage/mine.png",
+				"selectedIconPath": "static/tabbarImage/mineSel.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
